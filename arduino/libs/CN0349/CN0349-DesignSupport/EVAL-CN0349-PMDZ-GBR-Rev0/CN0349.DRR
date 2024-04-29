@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: CN0349.PcbDoc   5/20/2014  10:46:56 AM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : CN0349.TXT
+EIA File   : CN0349.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        16mil (0.4064mm)         Round          21               4.53 Inch (115.16 mm)
+T2        20mil (0.508mm)          Round          2                0.75 Inch (18.99 mm)
+T3        22mil (0.5588mm)         Round          15               4.62 Inch (117.36 mm)
+T4        25mil (0.635mm)          Round          1                0.00 Inch (0.00 mm)
+T5        32mil (0.8128mm)         Round          4                1.69 Inch (42.96 mm)
+T6        39.4mil (1.00076mm)      Round          5                0.40 Inch (10.16 mm)
+T7        47.2mil (1.19888mm)      Round          8                0.70 Inch (17.78 mm)
+---------------------------------------------------------------------------
+Totals                                            56               12.69 Inch (322.41 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00
