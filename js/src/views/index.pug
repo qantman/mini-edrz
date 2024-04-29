@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+
+  p
+    a(rel='records', href='/edrz/records') Records
+
+  p
+    a(rel='readings', href='/edrz/readings') Current readings:
+
+  ul
+    each g in Object.entries(allValues)
+      li
+        b #{g[0]}:
+      span readings: #{JSON.stringify(g[1].readings, null, 1)}
+      br
+      span controls: #{JSON.stringify(g[1].controls, null, 1)}
+      br

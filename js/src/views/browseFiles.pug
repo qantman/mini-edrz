@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= current
+
+  table
+    tr
+      td
+        b Name
+      td
+        b Modification time
+    each f in list
+      tr
+        td
+          if f.dir
+            b
+              a(href=f.url) #{f.name}/
+          else
+            a(href=f.url) #{f.name}
+        td
+          span #{f.mtimeMs}
